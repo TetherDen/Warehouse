@@ -1,0 +1,157 @@
+#pragma once
+#include "functions/products/Structure.h"
+#include "functions/common.h"
+
+// Поиск по имени
+Product* searchByName(Product* arr, unsigned int size, char* search, int& searchArrSize, int*& searchListIndex)
+{
+
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].name, search) == 0)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].name, search) == 0)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}
+ // Поиск по производителю
+Product* searchByManufact(Product* arr, unsigned int size, char* search, int& searchArrSize, int*& searchListIndex)
+{
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].manufacturer, search) == 0)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].manufacturer, search) == 0)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}
+
+
+Product* searchByPrice(Product* arr, unsigned int size, double search, int& searchArrSize, int*& searchListIndex)
+{
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i].price == search)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (arr[i].price == search)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}
+
+
+Product* searchByType(Product* arr, unsigned int size, char* search, int& searchArrSize, int*& searchListIndex)
+{
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].productType, search) == 0)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (strcmp(arr[i].productType, search) == 0)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}
+
+Product* searchByDate(Product* arr, unsigned int size, Date dt, int& searchArrSize, int*& searchListIndex)
+{
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i].date.year == dt.year && arr[i].date.month == dt.month && arr[i].date.day == dt.day)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (arr[i].date.year == dt.year && arr[i].date.month == dt.month && arr[i].date.day == dt.day)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}
+
+Product* searchByExpirationDate(Product* arr, unsigned int size, Date dt, int& searchArrSize, int*& searchListIndex)
+{
+	searchArrSize = 0;
+	for (int i = 0; i < size; i++)
+	{
+		if (arr[i].expDate.year == dt.year && arr[i].expDate.month == dt.month && arr[i].expDate.day == dt.day)
+		{
+			searchArrSize++;
+		}
+	}
+	redirectToNullPtr(searchListIndex);
+	searchListIndex = new int[searchArrSize];
+	Product* searchList = new Product[searchArrSize];
+	for (int i = 0, j = 0; i < size; i++)
+	{
+		if (arr[i].expDate.year == dt.year && arr[i].expDate.month == dt.month && arr[i].expDate.day == dt.day)
+		{
+			searchList[j] = arr[i];
+			searchListIndex[j] = i;
+			j++;
+		}
+	}
+	return searchList;
+}

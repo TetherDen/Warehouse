@@ -1,0 +1,50 @@
+﻿  main.cpp
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\print.h(20,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\print.h(35,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\products.h(8,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\products.h(49,12): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\products.h(52,28): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(8,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(20,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(32,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(44,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(55,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\search.h(66,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\sortings.h(7,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\sortings.h(9,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\sortings.h(25,20): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\products\sortings.h(27,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\admin\source\repos\1_12.02_Lesson_\Warehouse\functions\files.h(9,21): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+  Warehouse.vcxproj -> C:\Users\admin\source\repos\1_12.02_Lesson_\x64\Debug\Warehouse.exe
